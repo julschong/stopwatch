@@ -1,0 +1,59 @@
+.timer-container {
+    background-color: rgb(190, 223, 252);
+    padding: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+
+.timer {
+    display: flex;
+    font-size: 4vw;
+    align-items: baseline;
+    font-family: 'Original Surfer', cursive;
+    justify-content: center;
+    text-align: center;
+}
+
+.timer > * > * {
+    flex: 1 1 100%;
+}
+
+.timer > .digits {
+    flex: 1 1 100%;
+}
+
+[class='2-ms'] {
+    font-size: 3vw;
+}
+
+.control {
+    display: flex;
+    gap: 20px;
+}
+
+button {
+    width: 4vw;
+    height: 4vw;
+    font-family: 'Original Surfer', cursive;
+    font-size: large;
+    border-radius: 50%;
+    border-width: 0;
+}
+
+.start-button {
+    background-color: hsl(90, 100%, 87%);
+    transition-duration: 500ms;
+}
+.start-button:hover {
+    background-color: hsl(90, 100%, 67%);
+}
+
+.reset-button {
+    background-color: hsl(244, 100%, 87%);
+    transition-duration: 500ms;
+}
+.reset-button:hover {
+    background-color: hsl(244, 100%, 67%);
+}
