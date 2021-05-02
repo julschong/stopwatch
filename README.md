@@ -17,7 +17,7 @@ the app uses simple setInternal() set to ms and built in Date.now() to track ela
 
 ![stopwatch](https://user-images.githubusercontent.com/71372051/116830156-fd4db000-ab5c-11eb-8bad-0917566adda1.gif)
 
-# main logic in Timer Components
+# Main logic in Timer Components
 Timer components where it stores:
   - timerState - "Started", "Paused", "Stopped"
   - timer - the elapsed time in milliseconds
