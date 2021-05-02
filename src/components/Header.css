@@ -1,0 +1,12 @@
+.header {
+    position: absolute;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    padding-left: 1vw;
+    background-color: var(--bg-dark);
+    height: 10vh;
+    width: 100%;
+    font-size: 7vh;
+    color: var(--bg-light);
+}

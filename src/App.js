@@ -4,9 +4,13 @@ import Timer from './components/Timer'
 
 const App = () => {
     return (
-        <div className="App">
-            <Header />
-            <Timer />
+        <div>
+            <header>
+                <Header />
+            </header>
+            <main className="main">
+                <Timer />
+            </main>
         </div>
     )
 }

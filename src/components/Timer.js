@@ -21,7 +21,7 @@ const Timer = () => {
         setTimerState('Stopped')
     }
 
-    const toggleTimer = () => {
+    const toggleTimer = (event) => {
         switch (timerState) {
             case 'Started':
                 setTimerState('Paused')

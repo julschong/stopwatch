@@ -1,15 +1,17 @@
 .timer-container {
-    background-color: rgb(190, 223, 252);
+    background-color: var(--bg-light);
     padding: 2rem;
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
-    width: 50vw;
+    width: 75vw;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2),
+        3px 3px 3px 3px rgba(0, 0, 0, 0.16);
 }
 
 .timer {
     display: flex;
-    font-size: 4vw;
+    font-size: 10vw;
     align-items: baseline;
     font-family: 'Original Surfer', cursive;
     justify-content: center;
@@ -37,23 +39,38 @@ button {
     width: 4vw;
     height: 4vw;
     font-family: 'Original Surfer', cursive;
-    font-size: large;
+    font-size: x-large;
     border-radius: 50%;
     border-width: 0;
+    transition: transform 0.1s;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2),
+        3px 3px 3px 3px rgba(0, 0, 0, 0.16);
+    min-width: 80px;
+    min-height: 80px;
 }
 
 .start-button {
     background-color: hsl(90, 100%, 87%);
-    transition-duration: 500ms;
+    transition-duration: 100ms;
 }
 .start-button:hover {
     background-color: hsl(90, 100%, 67%);
+    transform: scale(1.1);
+}
+.start-button:active {
+    background-color: hsl(90, 100%, 67%);
+    transform: scale(0.9);
 }
 
 .reset-button {
     background-color: hsl(244, 100%, 87%);
-    transition-duration: 500ms;
+    transition-duration: 100ms;
 }
 .reset-button:hover {
+    background-color: hsl(244, 100%, 67%);
+    transform: scale(1.1);
+}
+.reset-button:active {
+    transform: scale(0.9);
     background-color: hsl(244, 100%, 67%);
 }

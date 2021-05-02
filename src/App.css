@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
 body {
     margin: 0;
-    background-color: hsl(240, 50%, 50%, 0.5);
+    --bg-dark: #264653;
+    --bg-neutral: #e9c46a;
+    --bg-light: #e76f51;
+    font-family: 'Original Surfer', cursive;
+}
+.main {
+    margin: 0;
+    background-color: var(--bg-neutral);
     display: flex;
     align-items: center;
     justify-content: center;
